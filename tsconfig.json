@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "types": [],
+    "paths": {
+      "@config/*": ["tests/config/*"],
+      "@common/*": ["src/common/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
